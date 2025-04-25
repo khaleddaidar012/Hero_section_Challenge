@@ -20,7 +20,9 @@ const AiGenerator =( props) =>{
 <button onClick={handleGenerate}  className="text-[#1e2939] relative left-[15%] bottom-[45%] bg-green-600 rounded-md w-[250px] h-[40px] font-bold  text-white cursor-pointer">{props.text}</button> 
         {genImage && (<div>
             <img src={genImage} className="py-10 transition-opacity duration-700 opacity-100  rounded-ls" />
-            <p className="text-center bg-[rgba(255,250,240,0.7)] p-4 rounded-md">{genText}</p>
+            <p className="text-center bg-[rgba(255,250,240,0.7)] p-4 rounded-md "             contentEditable={true} // Make the text editable
+            suppressContentEditableWarning={true} // Disable React's warning for editable elements
+            onBlur={(e) => SetText(e.target.innerText)} >{genText}</p>
             
         </div>)}
     </div>
