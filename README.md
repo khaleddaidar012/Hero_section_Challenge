@@ -17,6 +17,10 @@ Finalized the project and uploaded the completed version.
 
 ------
 ------
+
+https://github.com/user-attachments/assets/05e2a8a2-8cdf-430b-aaa8-e4107c2bac25
+
+
 ------
 
 
@@ -34,3 +38,4 @@ Google Search: For finding solutions or resources.
 ChatGPT: For helping solve problems and providing guidance.
 
 Git and GitHub: For version control, managing changes, and storing the project.
+
