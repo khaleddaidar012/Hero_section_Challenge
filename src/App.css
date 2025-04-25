@@ -6,4 +6,18 @@
 .App{
   height: 100vh;
   background: url('././assets/bg.jpg') center center;
+  min-height: fit-content;
+
+
+
+  
+}
+.App هةل {
+  height: 100vh;
+  background: url('././assets/bg.jpg') center center;
+  min-height: fit-content;
+
+
+
+  
 }
