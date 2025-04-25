@@ -15,7 +15,9 @@ Optimized the website for smaller screen sizes (responsive design).
 Finalized the project and uploaded the completed version.
 
 
-
+------
+------
+------
 
 
 
